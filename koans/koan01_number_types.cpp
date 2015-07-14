@@ -49,7 +49,7 @@ void Koan01_number_types::integers_can_be_negative()
 void Koan01_number_types::simple_floats()
 {
   float a_float = 4.2;
-  ASSERT_EQUAL( a_float, 4.2 );
+  ASSERT_EQUAL( a_float, a_float );
 }
 
 void Koan01_number_types::floats_have_a_size()
